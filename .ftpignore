@@ -1,0 +1,15 @@
+/.git/
+.gitignore
+.gitattributes
+/.gitlab-ci.yml
+.dockerignore
+.ftpignore
+.editorconfig
+/ftp.env
+Dockerfile
+/.idea/
+/node_modules/
+/package-lock.json
+/yarn.lock
+*.scss
+*.ts

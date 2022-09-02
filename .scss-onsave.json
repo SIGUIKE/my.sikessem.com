@@ -1,0 +1,10 @@
+{
+	"inputDir": "app/src/scripts/",
+	"outputDir": "client/",
+	"useNpmSass": true,
+	"style":"compressed",
+	"sourcemap":"none",
+	"showStartup":true,
+	"showOutput":true,
+	"showError":true
+}

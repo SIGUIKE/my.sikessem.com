@@ -1,0 +1,38 @@
+{
+    "name": "sikessem/sikessem.com",
+    "type": "project",
+    "description": "The SIKessEm Website",
+    "homepage": "https://sikessem.com",
+    "license": "GPL-3.0-only",
+    "keywords": [
+        "sikessem",
+        "website",
+        "application"
+    ],
+    "scripts": {
+        "app": "./server/run app",
+        "css": "sass ./server/res/styles/:./client/static/ -s compressed --no-source-map"
+    },
+    "authors": [{
+        "name": "SIGUI Kessé Emmanuel",
+        "homepage": "https://about.sikessem.com",
+        "email": "developer@sikessem.com",
+        "role": "Developer"
+    }],
+    "support": {
+        "source": "https://github.com/SIKessEm/Website",
+        "issues": "https://github.com/SIKessEm/Website/issues"
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "config": {
+        "web-dir": "client",
+	  	"bin-dir": "server",
+        "vendor-dir": "php_packages",
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
